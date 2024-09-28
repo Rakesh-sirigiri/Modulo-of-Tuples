@@ -1,0 +1,6 @@
+tup1 = (2,3,4,5)
+tup2 = (5,2,3,8)
+print("The original tuple 1 : " + str(tup1))
+print("The original tuple 2 : " + str(tup2))
+res = tuple(ele1 % ele2 for ele1, ele2 in zip(tup1, tup2))
+print("The modulus tuple : " + str(res))
